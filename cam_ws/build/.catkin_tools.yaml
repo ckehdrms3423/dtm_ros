@@ -1,0 +1,6 @@
+devel_space: /home/idp-503/cam_ws/devel
+install: false
+install_space: /home/idp-503/cam_ws/install
+profile: default
+source_space: /home/idp-503/cam_ws/src
+workspace: /home/idp-503/cam_ws

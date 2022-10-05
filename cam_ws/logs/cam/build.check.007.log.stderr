@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/idp-503/cam_ws/src/cam/CMakeLists.txt:88:
+  Parse error.  Expected a command name, got quoted argument with text
+  "generate_dynamic_reconfigure_options".
+
+
+make: *** [cmake_check_build_system] Error 1
