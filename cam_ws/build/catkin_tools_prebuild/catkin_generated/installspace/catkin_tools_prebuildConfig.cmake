@@ -67,14 +67,14 @@ set(catkin_tools_prebuild_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(catkin_tools_prebuild_SOURCE_PREFIX /home/idp-503/cam_ws/build/catkin_tools_prebuild)
-  set(catkin_tools_prebuild_DEVEL_PREFIX /home/idp-503/cam_ws/devel/.private/catkin_tools_prebuild)
+  set(catkin_tools_prebuild_SOURCE_PREFIX /home/idp/dtm_ws/cam_ws/build/catkin_tools_prebuild)
+  set(catkin_tools_prebuild_DEVEL_PREFIX /home/idp/dtm_ws/cam_ws/devel/.private/catkin_tools_prebuild)
   set(catkin_tools_prebuild_INSTALL_PREFIX "")
   set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_DEVEL_PREFIX})
 else()
   set(catkin_tools_prebuild_SOURCE_PREFIX "")
   set(catkin_tools_prebuild_DEVEL_PREFIX "")
-  set(catkin_tools_prebuild_INSTALL_PREFIX /home/idp-503/cam_ws/install)
+  set(catkin_tools_prebuild_INSTALL_PREFIX /home/idp/dtm_ws/cam_ws/install)
   set(catkin_tools_prebuild_PREFIX ${catkin_tools_prebuild_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/idp-503/cam_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/idp/dtm_ws/cam_ws/install/lib;/home/idp/dtm_ws/cam_ws/devel/lib;/home/idp/dtm_ws/gps_ws/devel/lib;/home/idp/IDP-DataCollector/devel/lib;/home/idp/catkin_ws3/devel/lib;/home/idp/catkin_ws/src/object_mapping/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/idp-503/cam_ws/install/setup.sh
+    local-name: /home/idp/dtm_ws/cam_ws/install/setup.sh

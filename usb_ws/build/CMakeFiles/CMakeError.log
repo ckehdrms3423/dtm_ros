@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_124cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_124cc.dir/build.make CMakeFiles/cmTC_124cc.dir/build
+make[1]: 디렉터리 '/home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_124cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_124cc.dir/CheckSymbolExists.c.o   -c /home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_124cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_124cc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_124cc.dir/CheckSymbolExists.c.o  -o cmTC_124cc 
+CMakeFiles/cmTC_124cc.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_124cc.dir/build.make:97: recipe for target 'cmTC_124cc' failed
+make[1]: *** [cmTC_124cc] Error 1
+make[1]: 디렉터리 '/home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_124cc/fast' failed
+make: *** [cmTC_124cc/fast] Error 2
+
+File /home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d424/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d424.dir/build.make CMakeFiles/cmTC_4d424.dir/build
+make[1]: 디렉터리 '/home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_4d424.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4d424.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d424.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4d424.dir/CheckFunctionExists.c.o  -o cmTC_4d424 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4d424.dir/build.make:97: recipe for target 'cmTC_4d424' failed
+make[1]: *** [cmTC_4d424] Error 1
+make[1]: 디렉터리 '/home/idp/dtm_ws/usb_ws/build/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_4d424/fast' failed
+make: *** [cmTC_4d424/fast] Error 2
+
+

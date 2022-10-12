@@ -1,0 +1,8 @@
+prefix=/home/idp/dtm_ws/gps_ws/devel
+
+Name: rtcm_msgs
+Description: Description of rtcm_msgs
+Version: 1.1.1
+Cflags: -I/home/idp/dtm_ws/gps_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

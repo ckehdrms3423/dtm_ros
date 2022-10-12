@@ -1,25 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp
+Change Dir: /home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b362a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b362a.dir/build.make CMakeFiles/cmTC_b362a.dir/build
-make[1]: Entering directory '/home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b362a.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b362a.dir/CheckSymbolExists.c.o   -c /home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b362a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b362a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b362a.dir/CheckSymbolExists.c.o  -o cmTC_b362a 
-CMakeFiles/cmTC_b362a.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
-CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_4674f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4674f.dir/build.make CMakeFiles/cmTC_4674f.dir/build
+make[1]: 디렉터리 '/home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_4674f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4674f.dir/CheckSymbolExists.c.o   -c /home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4674f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4674f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4674f.dir/CheckSymbolExists.c.o  -o cmTC_4674f 
+CMakeFiles/cmTC_4674f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b362a.dir/build.make:97: recipe for target 'cmTC_b362a' failed
-make[1]: *** [cmTC_b362a] Error 1
-make[1]: Leaving directory '/home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b362a/fast' failed
-make: *** [cmTC_b362a/fast] Error 2
+CMakeFiles/cmTC_4674f.dir/build.make:97: recipe for target 'cmTC_4674f' failed
+make[1]: *** [cmTC_4674f] Error 1
+make[1]: 디렉터리 '/home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_4674f/fast' failed
+make: *** [cmTC_4674f/fast] Error 2
 
-File /home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -35,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp
+Change Dir: /home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_188c1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_188c1.dir/build.make CMakeFiles/cmTC_188c1.dir/build
-make[1]: Entering directory '/home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_188c1.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_188c1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_188c1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_188c1.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_188c1.dir/CheckFunctionExists.c.o  -o cmTC_188c1 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_61d32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61d32.dir/build.make CMakeFiles/cmTC_61d32.dir/build
+make[1]: 디렉터리 '/home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_61d32.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_61d32.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61d32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d32.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_61d32.dir/CheckFunctionExists.c.o  -o cmTC_61d32 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_188c1.dir/build.make:97: recipe for target 'cmTC_188c1' failed
-make[1]: *** [cmTC_188c1] Error 1
-make[1]: Leaving directory '/home/idp-503/cam_ws/build/cam/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_188c1/fast' failed
-make: *** [cmTC_188c1/fast] Error 2
+CMakeFiles/cmTC_61d32.dir/build.make:97: recipe for target 'cmTC_61d32' failed
+make[1]: *** [cmTC_61d32] Error 1
+make[1]: 디렉터리 '/home/idp/dtm_ws/cam_ws/build/cam/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_61d32/fast' failed
+make: *** [cmTC_61d32/fast] Error 2
 
 

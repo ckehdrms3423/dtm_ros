@@ -1,1 +1,1 @@
-/home/idp-503/cam_ws/devel/.private/cam/share/cam/cmake/camConfig-version.cmake
+/home/idp/dtm_ws/cam_ws/devel/.private/cam/share/cam/cmake/camConfig-version.cmake

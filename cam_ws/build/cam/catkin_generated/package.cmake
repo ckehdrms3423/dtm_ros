@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "cam")
 set(cam_VERSION "0.0.0")
-set(cam_MAINTAINER "idp-503 <idp-503@todo.todo>")
+set(cam_MAINTAINER "idp <idp@todo.todo>")
 set(cam_PACKAGE_FORMAT "2")
 set(cam_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(cam_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")

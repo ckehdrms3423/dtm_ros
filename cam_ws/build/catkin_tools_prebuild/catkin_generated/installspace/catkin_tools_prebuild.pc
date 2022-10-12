@@ -1,4 +1,4 @@
-prefix=/home/idp-503/cam_ws/install
+prefix=/home/idp/dtm_ws/cam_ws/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

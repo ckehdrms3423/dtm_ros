@@ -15,6 +15,6 @@ cap.set(cv2.CAP_PROP_FPS,30)
 while not rospy.is_shutdown():
     ret,frame=cap.read()
     pub.publish(bridge.cv2_to_imgmsg(frame,"bgr8"))
-    print('send')
+    #print('send')
 cap.release()
 cv2.destroyAllWindows()
