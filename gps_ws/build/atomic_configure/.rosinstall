@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/idp/dtm_ws/gps_ws/devel/setup.sh
+    local-name: /home/idp-503/dtm_ros/gps_ws/devel/setup.sh

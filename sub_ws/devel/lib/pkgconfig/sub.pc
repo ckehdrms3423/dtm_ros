@@ -1,0 +1,8 @@
+prefix=/home/idp-503/ckehdrmsgit/sub_ws/devel
+
+Name: sub
+Description: Description of sub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

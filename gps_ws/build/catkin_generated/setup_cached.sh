@@ -7,8 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/home/idp/IDP-DataCollector/devel/lib:/home/idp/catkin_ws3/devel/lib:/home/idp/catkin_ws/src/object_mapping/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda-11.0/extras/CUPTI/lib64:/usr/local/cuda-11.0/lib64'
-export PKG_CONFIG_PATH='/home/idp/catkin_ws3/devel/lib/pkgconfig:/home/idp/catkin_ws/src/object_mapping/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
-export PWD='/home/idp/dtm_ws/gps_ws/build'
-export PYTHONPATH='/home/idp/catkin_ws3/devel/lib/python2.7/dist-packages:/home/idp/catkin_ws/src/object_mapping/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'
-export ROS_PACKAGE_PATH='/home/idp/dtm_ws/gps_ws/src:/home/idp/IDP-DataCollector/src:/home/idp/catkin_ws3/src/foward_filter:/home/idp/catkin_ws3/src/rosbag_to_csv:/home/idp/catkin_ws/src/object_mapping/src/darknet_ros/darknet_ros_msgs:/home/idp/catkin_ws/src/object_mapping/src/darknet_ros/darknet_ros:/home/idp/catkin_ws/src/object_mapping/src/gb_visual_detection_3d_msgs:/home/idp/catkin_ws/src/object_mapping/src/gb_visual_detection_3d/darknet_ros_3d:/home/idp/catkin_ws/src/object_mapping/src/object_mapping:/home/idp/catkin_ws/src/object_mapping/src/ros-kafka-connector:/opt/ros/melodic/share'
+export CMAKE_PREFIX_PATH="/home/idp-503/dtm_ros/gps_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64'
+export PATH='/opt/ros/melodic/bin:/home/idp-503/.local/bin:/usr/local/cuda-10.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin$'
+export PWD='/home/idp-503/dtm_ros/gps_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/idp-503/dtm_ros/gps_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/idp-503/dtm_ros/gps_ws/src:$ROS_PACKAGE_PATH"
