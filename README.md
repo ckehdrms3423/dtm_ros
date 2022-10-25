@@ -1,4 +1,4 @@
-# dtm_ros
+# dtm_ws
   roscore
   ## usb_ws
     USB cam ros
@@ -27,4 +27,4 @@
     
     roslaunch ublox_gps ublox_device.launch
   ## rosbag
-    rosbag record -a -X "(.*)/compressed(.*)" -O "bagfilename"
+    rosbag record -a -x "(.*)/compressed(.*)" -O "bagfilename"
