@@ -1,6 +1,0 @@
-devel_space: /home/idp/dtm_ws/cam_ws/devel
-install: false
-install_space: /home/idp/dtm_ws/cam_ws/install
-profile: default
-source_space: /home/idp/dtm_ws/cam_ws/src
-workspace: /home/idp/dtm_ws/cam_ws

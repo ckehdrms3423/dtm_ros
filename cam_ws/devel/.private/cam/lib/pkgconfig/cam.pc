@@ -1,8 +1,0 @@
-prefix=/home/idp/dtm_ws/cam_ws/devel/.private/cam
-
-Name: cam
-Description: Description of cam
-Version: 0.0.0
-Cflags: -I/home/idp/dtm_ws/cam_ws/src/cam/include
-Libs: -L${prefix}/lib 
-Requires: 
