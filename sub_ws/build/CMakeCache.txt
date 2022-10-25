@@ -408,9 +408,6 @@ sub_SOURCE_DIR:STATIC=/home/idp-503/dtm_ros/sub_ws/src/sub
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
 
-//The directory containing a CMake configuration file for ~/workspace/src/darknet_ros/darknet_ros_msgs.
-~/workspace/src/darknet_ros/darknet_ros_msgs_DIR:PATH=/home/idp-503/workspace/src/darknet_ros/darknet_ros_msgs_DIR-NOTFOUND
-
 
 ########################
 # INTERNAL cache entries
@@ -418,7 +415,7 @@ xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
 
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/idp-503/dtm_ros/sub_ws/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/idp-503/ckehdrmsgit/sub_ws/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/idp-503/dtm_ros/sub_ws/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -501,7 +498,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/idp-503/ckehdrmsgit/sub_ws/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/idp-503/dtm_ros/sub_ws/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

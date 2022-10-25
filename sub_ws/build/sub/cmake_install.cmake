@@ -1,8 +1,8 @@
-# Install script for directory: /home/idp-503/ckehdrmsgit/sub_ws/src/sub
+# Install script for directory: /home/idp-503/dtm_ros/sub_ws/src/sub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/idp-503/ckehdrmsgit/sub_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/idp-503/dtm_ros/sub_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,37 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sub/cmake" TYPE FILE FILES "/home/idp-503/ckehdrmsgit/sub_ws/build/sub/catkin_generated/installspace/sub-msg-paths.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/idp-503/ckehdrmsgit/sub_ws/devel/share/roseus/ros/sub")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/idp-503/ckehdrmsgit/sub_ws/devel/lib/python2.7/dist-packages/sub")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/idp-503/ckehdrmsgit/sub_ws/devel/lib/python2.7/dist-packages/sub")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/idp-503/ckehdrmsgit/sub_ws/build/sub/catkin_generated/installspace/sub.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sub/cmake" TYPE FILE FILES "/home/idp-503/ckehdrmsgit/sub_ws/build/sub/catkin_generated/installspace/sub-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/idp-503/dtm_ros/sub_ws/build/sub/catkin_generated/installspace/sub.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sub/cmake" TYPE FILE FILES
-    "/home/idp-503/ckehdrmsgit/sub_ws/build/sub/catkin_generated/installspace/subConfig.cmake"
-    "/home/idp-503/ckehdrmsgit/sub_ws/build/sub/catkin_generated/installspace/subConfig-version.cmake"
+    "/home/idp-503/dtm_ros/sub_ws/build/sub/catkin_generated/installspace/subConfig.cmake"
+    "/home/idp-503/dtm_ros/sub_ws/build/sub/catkin_generated/installspace/subConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sub" TYPE FILE FILES "/home/idp-503/ckehdrmsgit/sub_ws/src/sub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sub" TYPE FILE FILES "/home/idp-503/dtm_ros/sub_ws/src/sub/package.xml")
 endif()
 

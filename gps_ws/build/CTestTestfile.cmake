@@ -5,3 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("rtcm_msgs")
+subdirs("ublox_f9p/ublox")
+subdirs("ublox_f9p/ublox_serialization")
+subdirs("ublox_f9p/ublox_msgs")
+subdirs("ublox_f9p/ublox_gps")

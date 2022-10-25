@@ -1,2 +1,2 @@
-
+rtcm_msgs:ublox_f9p/ublox:ublox_f9p/ublox_gps:ublox_f9p/ublox_msgs:ublox_f9p/ublox_serialization
 -DCATKIN_DEVEL_PREFIX=/home/idp-503/dtm_ros/gps_ws/devel -DCMAKE_INSTALL_PREFIX=/home/idp-503/dtm_ros/gps_ws/install -G Unix Makefiles

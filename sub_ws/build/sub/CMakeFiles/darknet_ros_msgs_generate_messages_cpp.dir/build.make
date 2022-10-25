@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/idp-503/ckehdrmsgit/sub_ws/src
+CMAKE_SOURCE_DIR = /home/idp-503/dtm_ros/sub_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/idp-503/ckehdrmsgit/sub_ws/build
+CMAKE_BINARY_DIR = /home/idp-503/dtm_ros/sub_ws/build
 
 # Utility rule file for darknet_ros_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/build: darknet_ros_msg
 .PHONY : sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/build
 
 sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/clean:
-	cd /home/idp-503/ckehdrmsgit/sub_ws/build/sub && $(CMAKE_COMMAND) -P CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/idp-503/dtm_ros/sub_ws/build/sub && $(CMAKE_COMMAND) -P CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/clean
 
 sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/depend:
-	cd /home/idp-503/ckehdrmsgit/sub_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/idp-503/ckehdrmsgit/sub_ws/src /home/idp-503/ckehdrmsgit/sub_ws/src/sub /home/idp-503/ckehdrmsgit/sub_ws/build /home/idp-503/ckehdrmsgit/sub_ws/build/sub /home/idp-503/ckehdrmsgit/sub_ws/build/sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/idp-503/dtm_ros/sub_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/idp-503/dtm_ros/sub_ws/src /home/idp-503/dtm_ros/sub_ws/src/sub /home/idp-503/dtm_ros/sub_ws/build /home/idp-503/dtm_ros/sub_ws/build/sub /home/idp-503/dtm_ros/sub_ws/build/sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sub/CMakeFiles/darknet_ros_msgs_generate_messages_cpp.dir/depend
 

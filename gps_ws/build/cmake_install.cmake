@@ -131,6 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/idp-503/dtm_ros/gps_ws/build/gtest/cmake_install.cmake")
+  include("/home/idp-503/dtm_ros/gps_ws/build/rtcm_msgs/cmake_install.cmake")
+  include("/home/idp-503/dtm_ros/gps_ws/build/ublox_f9p/ublox/cmake_install.cmake")
+  include("/home/idp-503/dtm_ros/gps_ws/build/ublox_f9p/ublox_serialization/cmake_install.cmake")
+  include("/home/idp-503/dtm_ros/gps_ws/build/ublox_f9p/ublox_msgs/cmake_install.cmake")
+  include("/home/idp-503/dtm_ros/gps_ws/build/ublox_f9p/ublox_gps/cmake_install.cmake")
 
 endif()
 

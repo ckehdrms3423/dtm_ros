@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
+import sys
 import cv2
 from cv_bridge import CvBridge, CvBridgeError
 import message_filters
@@ -8,7 +9,9 @@ from std_msgs.msg import String
 from sensor_msgs.msg import NavSatFix,Image
 from darknet_ros_msgs.msg import BoundingBoxes
 import message_filters
-
+#sys.path.append('/home/idp-503/.local/lib/python3.7/site-packages')
+import nextcloud_client
+#import urllib3
 lat=0
 lon=0
 bridge=CvBridge()
