@@ -1,2 +1,2 @@
 sub
--DCATKIN_DEVEL_PREFIX=/home/idp-503/ckehdrmsgit/sub_ws/devel -DCMAKE_INSTALL_PREFIX=/home/idp-503/ckehdrmsgit/sub_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/idp-503/dtm_ros/sub_ws/devel -DCMAKE_INSTALL_PREFIX=/home/idp-503/dtm_ros/sub_ws/install -G Unix Makefiles

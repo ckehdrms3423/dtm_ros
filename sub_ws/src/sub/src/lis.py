@@ -29,19 +29,14 @@ def callback2(data):
 #        print('write')
 
 def callback3(data):
-#    print("{}".format(data))
     obj_name=""
     for i in data.bounding_boxes:
-#        print("{}".format(i.id))
         obj_name+=str(i.id)
-#    obj_name=""
-#    for i in data.bounding_boxes:
-#        obj_name+=bounding_boxes.id
     print("{}".format(obj_name))
 
 def listener():
     rospy.init_node('listener', anonymous=True)
-    #rospy.Subscriber('ublox_gps/fix', NavSatFix, callback)
+    rospy.Subscriber('ublox_gps/fix', NavSatFix, callback)
     #rospy.Subscriber('darknet_ros/detection_image',Image,callback2)
     rospy.Subscriber('darknet_ros/bounding_boxes',BoundingBoxes,callback3)
     rospy.spin()

@@ -67,14 +67,14 @@ set(sub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sub_SOURCE_PREFIX /home/idp-503/ckehdrmsgit/sub_ws/src/sub)
-  set(sub_DEVEL_PREFIX /home/idp-503/ckehdrmsgit/sub_ws/devel)
+  set(sub_SOURCE_PREFIX /home/idp-503/dtm_ros/sub_ws/src/sub)
+  set(sub_DEVEL_PREFIX /home/idp-503/dtm_ros/sub_ws/devel)
   set(sub_INSTALL_PREFIX "")
   set(sub_PREFIX ${sub_DEVEL_PREFIX})
 else()
   set(sub_SOURCE_PREFIX "")
   set(sub_DEVEL_PREFIX "")
-  set(sub_INSTALL_PREFIX /home/idp-503/ckehdrmsgit/sub_ws/install)
+  set(sub_INSTALL_PREFIX /home/idp-503/dtm_ros/sub_ws/install)
   set(sub_PREFIX ${sub_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/idp-503/ckehdrmsgit/sub_ws/install/lib;/home/idp-503/workspace/devel/lib;/home/idp-503/ckehdrmsgit/sub_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/idp-503/dtm_ros/sub_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

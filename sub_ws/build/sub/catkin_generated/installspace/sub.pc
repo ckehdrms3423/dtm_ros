@@ -1,4 +1,4 @@
-prefix=/home/idp-503/ckehdrmsgit/sub_ws/install
+prefix=/home/idp-503/dtm_ros/sub_ws/install
 
 Name: sub
 Description: Description of sub
